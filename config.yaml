@@ -1,11 +1,12 @@
+cookie:
+  expiry_days: 30
+  key: some_random_key
+  name: auth_cookie
 credentials:
   usernames:
-    user1:
-      email: user1@example.com
-      name: User One
-      password: "$2b$12$eIXL.WgFzJemkgjO3exmYeDp5jydtw4Tc5LtAq9DLpgxP0B5xFZy6"  # Hashed password
-
-cookie:
-  name: "streamlit_auth"
-  key: "random_key_here"
-  expiry_days: 30
+    admin:
+      email: admin@example.com
+      name: Admin
+      password: $2b$12$m5.0LJMO7g8eBB9BHfwHeOQmiu21e4fDRS5DjghumTmXQ9NC8grDK
+preauthorized:
+- admin@example.com
