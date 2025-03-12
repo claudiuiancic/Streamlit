@@ -1,0 +1,11 @@
+credentials:
+  usernames:
+    user1:
+      email: user1@example.com
+      name: User One
+      password: "$2b$12$eIXL.WgFzJemkgjO3exmYeDp5jydtw4Tc5LtAq9DLpgxP0B5xFZy6"  # Hashed password
+
+cookie:
+  name: "streamlit_auth"
+  key: "random_key_here"
+  expiry_days: 30
