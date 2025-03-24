@@ -3,6 +3,8 @@ from datetime import datetime, UTC
 import pandas as pd
 import streamlit as st
 
+API_KEY = st.secrets.get("API_KEY", "api_key_placeholder")
+SPACE_ID = st.secrets.get("SPACE_ID", "space_id_placeholder")
 HEADERS = {"Authorization": API_KEY, "Content-Type": "application/json"}
 
 @st.cache_data
